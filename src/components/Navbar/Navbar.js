@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         boxSizing: 'border-box',
         padding: '13px 75px',
+        position: 'fixed',
     },
     logo: {
     },
@@ -29,6 +30,9 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const navTabs = [{
+    label: 'Home Feed'
+},
+{
     label: 'Map'
 }, {
     label: 'FamilyTree'

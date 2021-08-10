@@ -7,7 +7,8 @@ import Navbar from '../../components/Navbar/Navbar';
 
 const useStyles = makeStyles((theme) => ({
     content: {
-        minHeight: 500
+        boxSizing: 'border-box',
+        marginTop: 60
     }
 }))
 
@@ -22,7 +23,7 @@ function MainLayout() {
             <Grid item xs={3}>
                 <DrawerCustom />
             </Grid>
-            <Grid item xs={9}>
+            <Grid container item xs={9} className={classes.content}>
                 <Outlet />
             </Grid>
         </Grid>
