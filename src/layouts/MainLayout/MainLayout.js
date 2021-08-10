@@ -2,7 +2,7 @@ import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core'
 import React from 'react'
 import { Outlet } from 'react-router'
-import Drawer from '../../components/Drawer/Drawer';
+import DrawerCustom from '../../components/DrawerCustom/DrawerCustom';
 import Navbar from '../../components/Navbar/Navbar';
 
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +20,7 @@ function MainLayout() {
                 <Navbar />
             </Grid>
             <Grid item xs={3}>
-                <Drawer />
+                <DrawerCustom />
             </Grid>
             <Grid item xs={9}>
                 <Outlet />

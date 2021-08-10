@@ -3,7 +3,6 @@ import React from 'react'
 import leafs from '../../assets/leaf/leafs.png'
 import Lifetwig from '../../assets/logo/Lifetwig.png'
 import simon from '../../assets/simon.png'
-import bell from '../../assets/bell.svg'
 const useStyles = makeStyles((theme) => ({
     root: {
         height: 60,
